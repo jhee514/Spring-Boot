@@ -1,13 +1,21 @@
-# Daily Record
+# Subproject1.1
 
-## Day1 | Jan. 13th, 2020
+## Installation
 
-### todos
+-   JDK
 
-1.  Java 기초 공부 완료
-2.  Spring 공부 시작
+-   Intelli J
+-   MySQL
 
-### Java
+## Spring Boot
 
-### Spring
-
+-   Dependencies
+    -   Spring Boot Dev Tools
+    -   Lombok
+    -   Spring Web
+    -   Spring Reactive Web
+    -   Thymeleaf
+    -   Spring Security
+    -   Spring Data JPA
+    -   MySQL Driver
+-   
