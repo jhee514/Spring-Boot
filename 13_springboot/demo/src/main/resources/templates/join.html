@@ -6,5 +6,12 @@
 </head>
 <body>
 
+<form method="post" th:action="@{/joinRequest}">
+    username : <input name="user_id" type="text">
+    password : <input name="user_pw" type="password">
+    name : <input name="user_name" type="text">
+    <input type="submit" value="JOIN">
+</form>
+
 </body>
 </html>
