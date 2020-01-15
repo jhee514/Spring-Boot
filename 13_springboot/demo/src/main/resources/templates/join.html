@@ -6,6 +6,8 @@
 </head>
 <body>
 
+<!-- thymeleaf th: 붙여 줘야 403이 안떠 -->
+<!-- csrf token 을 자동으로 Thymeleaf 가 추가해준다. -->
 <form method="post" th:action="@{/joinRequest}">
     username : <input name="user_id" type="text">
     password : <input name="user_pw" type="password">
