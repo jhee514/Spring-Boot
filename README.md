@@ -99,3 +99,10 @@
     ```
 
     -   ``localhost:8080`` 뒤에 ``@GetMapping()`` 에 들어간 url 을 붙여 주면 해당 url 이 생성 및 연결 된다. 
+
+## getter setter
+
+Lombok 을 사용하면 getter setter 를 만들어 준다.
+
+
+
