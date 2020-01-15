@@ -2,12 +2,11 @@ package com.jhee.demo.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class MainController {
 
-    @RequestMapping(value = "/", method = RequestMethod.POST)
+    @RequestMapping(value = "/")
 //    위아래 같은 의미
 //    @PostMapping
     public String index() {
