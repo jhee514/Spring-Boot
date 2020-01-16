@@ -70,39 +70,18 @@
             java.sql.SQLException: The server time zone value 'KST' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
             ```
 
-## localhost:8080
-
-해당 주소로 접속 시 Spring Security에서 자동으로 제공하는 로그인 페이지가 나오게 되고 ``user`` 로 console 에 나오는 security password 를 비밀번호로 입력시 페이지에 접속 가능 => 처음엔 아무것도 만들어진 것이 없어서 404 에러
 
 
 
-## Controller
 
-``controller`` 라는 디렉토리를 프로젝트 메인패키지(?) 안에 생성 후 새로운 클래스를 작성해준다.
-
--   ``BoardController.java``
-
-    ```java
-    package com.jhee.demo.Controller;
-    
-    
-    import org.springframework.web.bind.annotation.GetMapping;
-    import org.springframework.web.bind.annotation.RestController;
-    
-    @RestController
-    public class BoardController {
-        @GetMapping("/test")
-        public String test() {
-            return "Hello, World!";
-        }
-    }
-    ```
-
-    -   ``localhost:8080`` 뒤에 ``@GetMapping()`` 에 들어간 url 을 붙여 주면 해당 url 이 생성 및 연결 된다. 
+-   -   
 
 ## getter setter
 
 Lombok 을 사용하면 getter setter 를 만들어 준다.
+
+-   ``Model`` 안 해당 ``.class`` 에서 원하는 모델을 작성 후 ``Code`` > ``Generate`` 누르고 팝업창 위 ``getter and setter`` 를 눌러주고, 생성하고 싶은 항목을 선택
+-   
 
 
 
