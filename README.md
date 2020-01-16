@@ -52,7 +52,7 @@
         #Database Configuration
         spring.datasource.driverClassName=com.mysql.jdbc.Driver
         spring.datasource.url=jdbc:mysql://localhost:3306/demo_db?serverTimezone=Asia/Seoul
-        spring.datasource.username=jhee
+        spring.datasource.username=<username>
         spring.datasource.password=<password>
         
         
