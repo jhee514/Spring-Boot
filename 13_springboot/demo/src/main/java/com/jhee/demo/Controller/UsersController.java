@@ -20,7 +20,7 @@ public class UsersController {
         JoinService joinService = new JoinService();
         joinService.joinUser(request, usersRepository);
 
-        return "index";
+        return "Joined";
     }
 
     @PostMapping("/loginRequest")

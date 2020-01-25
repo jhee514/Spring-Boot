@@ -1,16 +1,14 @@
 package com.jhee.demo.model;
 
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-import javax.persistence.*;
-
-// @Entity tells Hibernate to make a table out of this class
 @Entity
-@EntityListeners(AuditingEntityListener.class)
-public class Grocery {
-    //    @Id is used to set our primary key
+public class Item {
+
     @Id
-//    BELOW is used to tell Spring to automatically set the value of pk
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
