@@ -1,0 +1,20 @@
+import React, { Component } from 'react';
+
+
+const shops = ["bana", 'star', 'beans', 'w', 'luster'];
+const shopList = shops.map((shop) => 
+  <li>{shop}</li>
+);
+
+class Coffee extends Component {
+  
+  render() {
+    return (
+      <div>
+        <ul>{shopList}</ul>
+      </div>
+    );
+  }
+}
+
+export default Coffee;
