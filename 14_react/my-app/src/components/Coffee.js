@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 const shops = ["bana", 'star', 'beans', 'w', 'luster'];
 const shopList = shops.map((shop) => 
-  <li>{shop}</li>
+  <li key={shop.toString()}>{shop}</li>
 );
 
 class Coffee extends Component {
