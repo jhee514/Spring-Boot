@@ -5,7 +5,7 @@
     <title>Join Service</title>
 </head>
 <body>
-
+<div id="react">
 <!-- thymeleaf th: 붙여 줘야 403이 안떠 -->
 <!-- csrf token 을 자동으로 Thymeleaf 가 추가해준다. -->
 <form method="post" th:action="@{/joinRequest}">
@@ -14,6 +14,6 @@
     name : <input name="user_name" type="text">
     <input type="submit" value="JOIN">
 </form>
-
+</div>
 </body>
 </html>

@@ -72,10 +72,6 @@
 
 
 
-
-
--   -   
-
 ## getter setter
 
 Lombok 을 사용하면 getter setter 를 만들어 준다.

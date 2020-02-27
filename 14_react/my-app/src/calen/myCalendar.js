@@ -88,7 +88,11 @@ class myCalendar extends Component {
     return (
       <div>
         <div>
-          <Calendar dateCellRender={this.dateCellRender} />
+        <Calendar 
+          dateCellRender={this.dateCellRender} 
+          monthCellRender={this.monthCellRender} 
+          onSelect={this.onSelectDate}
+          />
         </div>
         <div>
           { this.state.times }
